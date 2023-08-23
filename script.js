@@ -3,7 +3,7 @@ const deleteButtons = document.getElementsByClassName('x-button');
 for (let x of deleteButtons) {
   x.addEventListener('click', deleteListElement);
 }
-
+//
 const addButton = document.getElementById('add-button');
 
 addButton.addEventListener('click', addMovie);
